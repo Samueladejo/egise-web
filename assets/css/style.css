@@ -473,9 +473,11 @@ section {
   color: #fff;
 }
 
+
+
 .section-bg:before {
   content: "";
-  background: #1b1b1b;
+  background: #131212;
   position: absolute;
   bottom: 60px;
   top: 60px;
@@ -566,6 +568,7 @@ section {
 .about .container {
   position: relative;
   z-index: 10;
+
 }
 
 .about .content {
@@ -579,7 +582,8 @@ section {
 }
 
 .about .content p {
-  margin-bottom: 30px;
+  margin:10px;
+  
 }
 
 .about .content .about-btn {
@@ -632,10 +636,14 @@ section {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 500px) {
   .about {
     text-align: center;
+    font-size: 18px;
+    line-height: 24px;
+
   }
+
 }
 
 /*--------------------------------------------------------------
